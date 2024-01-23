@@ -26,25 +26,23 @@ This is a simple Android app demo showcasing integration with Firebase for Googl
 2. Add your Google-services.json file to the app/ directory.
 3. Build and run the app on your Android device or emulator.
 
-##Firebase Configuration
+## Firebase Configuration
 Google Login
 1. Enable Google Sign-In in the Firebase console.
 2. Add your Android app to the Firebase project settings.
 3. Download the google-services.json file and add it to the app/ directory.
 
-
-##Crashlytics
+## Crashlytics
 1. Enable Crashlytics in the Firebase console.
 2. Add the Crashlytics dependency in your app/build.gradle:
 implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
 
 
-##Push Notifications
+## Push Notifications
 1. Enable Cloud Messaging in the Firebase console.
 2. Obtain your FCM Server Key and add it to your app's manifest:
 
 
-Copy code
 <application>
     <!-- ... other configurations ... -->
     <meta-data
@@ -60,17 +58,17 @@ Copy code
 </application>
 
 
-##Usage
+## Usage
 Explore the app to see the integration of Google login, Crashlytics, and push notifications in action.
 
-##Contributing
+## Contributing
 We welcome contributions! If you'd like to contribute to the project, please follow the contributing guidelines.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
-##Acknowledgments
+## Acknowledgments
 Thanks to Firebase for providing excellent tools for app development.
 
 
