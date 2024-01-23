@@ -57,7 +57,9 @@ implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
         </intent-filter>
     </service>
 </application>
-'''
+
+```
+
 
 ## Usage
 Explore the app to see the integration of Google login, Crashlytics, and push notifications in action.
