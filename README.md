@@ -27,7 +27,7 @@ This is a simple Android app demo showcasing integration with Firebase for Googl
 3. Build and run the app on your Android device or emulator.
 
 ## Firebase Configuration
-Google Login
+**Google Login**
 1. Enable Google Sign-In in the Firebase console.
 2. Add your Android app to the Firebase project settings.
 3. Download the google-services.json file and add it to the app/ directory.
