@@ -22,31 +22,28 @@ This is a simple Android app demo showcasing integration with Firebase for Googl
    git clone https://github.com/Nikul-Nakrani/FirebaseLoginAuthentication.git
 
 
-   Open the project in Android Studio.
+1. Open the project in Android Studio.
+2. Add your Google-services.json file to the app/ directory.
+3. Build and run the app on your Android device or emulator.
 
-Add your google-services.json file to the app/ directory.
-
-Build and run the app on your Android device or emulator.
-
-Firebase Configuration
+##Firebase Configuration
 Google Login
-Enable Google Sign-In in the Firebase console.
-Add your Android app in the Firebase project settings.
-Download the google-services.json file and add it to the app/ directory.
-Crashlytics
-Enable Crashlytics in the Firebase console.
+1. Enable Google Sign-In in the Firebase console.
+2. Add your Android app to the Firebase project settings.
+3. Download the google-services.json file and add it to the app/ directory.
 
-Add the Crashlytics dependency in your app/build.gradle:
 
-groovy
-Copy code
+##Crashlytics
+1. Enable Crashlytics in the Firebase console.
+2. Add the Crashlytics dependency in your app/build.gradle:
 implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
-Push Notifications
-Enable Cloud Messaging in the Firebase console.
 
-Obtain your FCM Server Key and add it to your app's manifest:
 
-xml
+##Push Notifications
+1. Enable Cloud Messaging in the Firebase console.
+2. Obtain your FCM Server Key and add it to your app's manifest:
+
+
 Copy code
 <application>
     <!-- ... other configurations ... -->
@@ -61,18 +58,19 @@ Copy code
         </intent-filter>
     </service>
 </application>
-Replace @string/default_notification_channel_id with the ID of your notification channel.
 
-Usage
+
+##Usage
 Explore the app to see the integration of Google login, Crashlytics, and push notifications in action.
 
-Contributing
+##Contributing
 We welcome contributions! If you'd like to contribute to the project, please follow the contributing guidelines.
 
-License
+##License
 This project is licensed under the MIT License.
 
-Acknowledgments
+
+##Acknowledgments
 Thanks to Firebase for providing excellent tools for app development.
 
 
