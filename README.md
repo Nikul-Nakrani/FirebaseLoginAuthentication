@@ -42,7 +42,8 @@ implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
 1. Enable Cloud Messaging in the Firebase console.
 2. Obtain your FCM Server Key and add it to your app's manifest:
 
-  ```bash
+
+```bash
 <application>
     <!-- ... other configurations ... -->
     <meta-data
@@ -56,7 +57,6 @@ implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
         </intent-filter>
     </service>
 </application>
-
 
 ## Usage
 Explore the app to see the integration of Google login, Crashlytics, and push notifications in action.
