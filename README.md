@@ -35,7 +35,9 @@ This is a simple Android app demo showcasing integration with Firebase for Googl
 ## Crashlytics
 1. Enable Crashlytics in the Firebase console.
 2. Add the Crashlytics dependency in your app/build.gradle:
+```
 implementation 'com.google.firebase:firebase-crashlytics:17.7.1'
+```
 
 
 ## Push Notifications
